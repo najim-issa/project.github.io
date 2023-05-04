@@ -1,29 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <!--!<section id="login-form">
-    <h2>Login to View Contact Information</h2>
-    <form onsubmit="return retrieveFormData()">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
 
-        <input type="submit" value="Login">
-    </form>
 
-    <div id="contact-info">
-        <h3>Contact Information</h3>
-        <ul id="contact-list"></ul>
-    </div>
-    </section>-->
+
+
+    <fieldset class="H4" style="width: 40%; height:40%">
+        <h2>Login Form</h2>
+        <div style="width:max-content">
+            <form style="align-content: center;">
+                <label class="b">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username " style=" border-color: cyan; text-align: left;">
+
+
+                <label class="b">Password</label>
+                <input type="input" id="password" name="password" placeholder="Enter your password" class="n" style="border-color: cyan;"><br>
+
+                <input type="button " value="Login " onclick="login() " class="btn" style=" width: 28%;
+                    height: 25px; text-align: center;">
+            </form>
+        </div>
+        <a href="index.html ">Back to HomePage</a>
+    </fieldset>
+
+
+
+
 </body>
 
+
+</html>
 
 </html>
