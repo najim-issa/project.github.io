@@ -1,0 +1,45 @@
+            html {
+                background: url('p.jpg') no-repeat center center fixed;
+                background-size: cover;
+            }
+            
+            .H4 {
+                background-color: white;
+                padding-bottom: 20px;
+                left: -20px;
+            }
+            
+            p {
+                text-align: justify;
+                text-indent: 50px;
+                text-decoration-style: solid;
+            }
+            
+            .left {
+                left: -2220px;
+                border-left: 3px solid transparent;
+                font-size: 18px;
+                text-align: left;
+            }
+            
+            table {
+                border: 1px solid black;
+                padding: 10px;
+                border-collapse: collapse;
+            }
+            
+            th,
+            td {
+                border: 1px solid black;
+                padding: 20px;
+                border-collapse: collapse;
+                padding-right: 4px;
+            }
+            
+            .clever {
+                left: 20px;
+                left: -2220px;
+                border-left: 3px solid transparent;
+                transition: transform 0.4s;
+                font-size: 18px
+            }
